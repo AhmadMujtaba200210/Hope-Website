@@ -1,4 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
+.navbar
+{
+    padding: 22px 0px;
+    background-color: #34495e ! important;
+    border-bottom: none ! important;
+}
+.navbar ul li a
+{
+    color: white ! important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+    
+}
 
+.navbar ul li a:hover
+{
+    color: deepskyblue ! important;
+}
 
+.navbar-toggle
+{
+    border: 1px solid white !important;
+}
 
+.navbar-toggle:hover
+{
+    background-color: deepskyblue !important;
+}
