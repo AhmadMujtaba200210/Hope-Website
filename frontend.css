@@ -1,8 +1,23 @@
+/*==========================
+  Basic Properties starts
+===========================*/
+
+
+
 *
 {
     margin: 0;
     padding: 0;
 }
+/*==========================
+  Basic Properties Ends
+===========================*/
+
+
+
+/*==========================
+Navigation Properties starts
+===========================*/
 
 .navbar
 {
@@ -29,9 +44,49 @@
 .navbar-toggle
 {
     border: 1px solid white !important;
+    transition : all 0.5s ease-in;
 }
 
 .navbar-toggle:hover
 {
     background-color: deepskyblue !important;
 }
+
+
+
+ .navbar-inverse .navbar-collapse
+{
+    border-color: transparent !important;
+}
+
+.Contact
+{
+    border: 1px solid white;
+    border-radius:50px;
+}
+
+/*==========================
+Navigation Properties Ends
+===========================*/
+
+
+
+
+
+
+
+
+/*==========================
+Slider Properties starts
+===========================*/
+.slider
+{
+    width:100%;
+    height:700px;
+    background-image:url(..//img/slider.jpg);
+}
+
+
+
+
+
