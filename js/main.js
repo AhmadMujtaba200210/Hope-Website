@@ -7,5 +7,15 @@ jQuery(document).ready(function(){
 });
     
     
+     $(".text").typed({
+        
+        strings:["First sentence.","Second sentence."],
+        typespeed:0,
+        loop:true   
+        
+        
+    });
+    
+    
     
 });
