@@ -19,6 +19,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
 <body>
@@ -51,11 +52,8 @@
 <!-- NavBar End -->
     <!-------------Slider Section starts-------------->
     <section class="slider text-center"  id="slider">
-<<<<<<< Updated upstream
-        
-=======
->>>>>>> Stashed changes
-        <div class="slider-overlay">
+
+                <div class="slider-overlay">
             <div class="slider-content">
                 <div class="icons">
                     <i class="fa fa-apple"></i>
@@ -63,7 +61,14 @@
                     <i class="fa fa-windows"></i>
                 </div>
                 <br>
-                <div class="text"></div>
+                <div class="text">
+                    <div id="typed-strings">
+                        <p>Helping our people every time</p>
+                        <p>Hope For the Poor</p>
+                        <p>Building Nation green</p>
+                    </div>
+                    <span id="typed"></span>
+                </div>
                 <div class="cta-div">
                     <a href="" class="btn1">contact us!</a>
                     <a href="" class="btn2">Meet our Team!</a>
@@ -79,46 +84,22 @@
                 </div>
             </div>
         </div>
+        <script> 
+            var type=new Typed('#typed',{
+                stringsElement:'#typed-strings',
+                typeSpeed:100,
+                loop:true,
+            });
+        </script>
     </section>
     
     
     <!---------Slider Section Ends------------>
     
     
-    
-    
-    
 <script src="js/jquery.ripples-min.js" type="text/javascript"></script>
 <script src="js/typed.min.js" type="text/javascript"></script>
-<script src="main.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
