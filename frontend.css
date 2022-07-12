@@ -4,10 +4,13 @@
 body 
 {
   height: 2000px;;
+   
+}
+
+*{
     margin: 0;
     padding:0;   
 }
-
 
 /*==========================
   Basic Properties Ends
@@ -21,8 +24,9 @@ Navigation Properties starts
 
 .navbar
 {
+    width:100%;
     padding: 22px 0px;
-    border-bottom: none ! important;
+    border-bottom: none ! important;    
 }
 .navbar ul li a
 {
@@ -55,7 +59,7 @@ Navigation Properties starts
 
  .navbar-inverse .navbar-collapse
 {
-    border-color: transparent !important;
+   /* border-color: transparent !important;*/
 }
 
 .Contact
@@ -77,7 +81,15 @@ Navigation Properties Ends
 ===========================*/
 
 
-
+/*==========================
+Sticky navigation with background color
+===========================*/
+.bgColor
+{
+    background-color:black;
+    color:black;
+    border-bottom: 5px solid lightblue;
+}
 
 
 
@@ -259,7 +271,10 @@ Slider Properties starts
         opacity: 1;
     }
 }
- 
+ /*==========================
+Slider Properties End
+===========================*/
+
  
 
 
