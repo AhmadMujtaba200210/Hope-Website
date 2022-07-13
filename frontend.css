@@ -84,11 +84,9 @@ Navigation Properties Ends
 /*==========================
 Sticky navigation with background color
 ===========================*/
-.bgColor
+.secondary
 {
     background-color:black;
-    color:black;
-    border-bottom: 5px solid lightblue;
 }
 
 
@@ -102,7 +100,7 @@ Slider Properties starts
 {
     width:100%;
     height:700px;
-    background-image: url("..//Hope-Website/HopeImages/team-ethnicity-group-hands.jpg");
+    background-image: url(HopeImages/team-ethnicity-group-hands.jpg);
     background-size:cover;
     background-position:center;
     color:white;

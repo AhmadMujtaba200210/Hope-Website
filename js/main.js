@@ -1,3 +1,4 @@
+/* global $,document,window,jQuery*/
 jQuery(document).ready(function(){
     "use strict"
     $('.slider').ripples({
@@ -5,17 +6,15 @@ jQuery(document).ready(function(){
         perturbance:0.01
     });
 
-   
+   $(window).scroll(function(){
+      var top=$(window).scrollTop();
+       if(top>=60){
+           $("nav").addClass('secondary');
+       }else{
+           if($("nav").hasClass('secondary')){
+               $("nav").removeClass('secondary');
+           }
+       }
+   });
 });
 
-function changeBg(){
-    var scrollvalue=window.scrollY;
-    var navi=document.getElementById('navi');
-    if(scrollvalue<150){
-        navi.classList.remove('bgColor');
-    }else{
-        navi.classList.add('bgColor');
-    }
-}
-
-window.addEventListener('scroll',changeBg);
