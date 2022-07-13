@@ -1,11 +1,7 @@
 /*==========================
   Basic Properties starts
 ===========================*/
-body 
-{
-  height: 2000px;;
-   
-}
+
 
 *{
     margin: 0;
@@ -59,7 +55,7 @@ Navigation Properties starts
 
  .navbar-inverse .navbar-collapse
 {
-   /* border-color: transparent !important;*/
+    border-color: transparent !important;
 }
 
 .Contact
@@ -146,7 +142,7 @@ Slider Properties starts
     transition: all 0.5 ease-in;
     margin-right: -6px;
 
-    background-image:url("..//Hope-Website/HopeImages/charity-93371.jpeg");
+    background-image:url("HopeImages/charity-93371.jpg");
     background-size: cover;
     background-position: center
     
@@ -274,18 +270,100 @@ Slider Properties End
 ===========================*/
 
  
+ /*==========================
+Services styles start
+===========================*/
+
+.services-wrap
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position:relative;
+    transition: all 0.5s ease 0s;
+    z-index:9;
+    margin-top: 20px;
+}
 
 
 
+.services-wrap::before, .services-wrap::after
+{
+    content: "";
+    height: 300%;
+    position:absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index:-9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;
+}
+
+.services-wrap::before
+{
+    top: -37px;
+    left: 100%;
+}
+.services-wrap:hover:before
+{
+    left: -27px;
+    opacity: 1;
+}
+
+.services-wrap::after
+{
+    bottom: -37px;
+    right: 100%;
+}
+
+.services-wrap:hover:after
+{
+    opacity: 1;
+    right: -27px;
+}
 
 
+.services-wrap:hover
+{
+   color: white;
+}
 
 
+.services-wrap:h3
+{
+   color: white;
+}
 
+.services-wrap:hover h3
+{
+   color: white;
+}
 
+.services-wrap:hover h3:after
+{
+   background-color: white;
+}
 
+.service-icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.45s;
+}
 
+.services-wrap:hover .service-icon i
+{
+    transform: rotate(360);
+}
 
+.services-wrap h3
+{
+    font-size:25px;
+    font-weight: 700;
+    padding-bottom:15px;
+    position: relative;
+    
+}
 
 
 
